@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  display: inline-grid;
+  width: 100%;
 }
 
 .App-logo {
@@ -26,6 +27,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+gdwc-menu {
+  display: inline;
+  justify-self: center;  
+}
+
+gdwc-menu::part(menu-level) {
+  list-style: inside;
 }
 
 @keyframes App-logo-spin {
